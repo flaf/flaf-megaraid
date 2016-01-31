@@ -11,3 +11,8 @@
 
 %:
 	dh $@ 
+
+override_dh_shlibdeps:
+	true
+
+
