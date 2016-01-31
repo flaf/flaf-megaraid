@@ -1,0 +1,15 @@
+Source: flaf-megaraid
+Section: admin
+Priority: extra
+Maintainer: Francois Lafont <francois.lafont@ac-versailles.fr>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+Homepage: https://github.com/flaf/flaf-megaraid
+
+Package: flaf-megaraid
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libc6-i386, python, lsb-base
+Description: get RAID status out of LSI MegaRAID
+ The megaraid-status software is a query tool to access the running
+ configuration and status of LSI MegaRAID SCSI/SAS HBAs. aacraid-status allows
+ you to monitor the health and status of your RAID setup.
